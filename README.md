@@ -1,4 +1,4 @@
-# SQL-Containers
+# SQL SERVER AG on Linux Containers
 Create SQL AG READSCALE on two containers
 1. Create Container sqlserver-bridge
   - sudo docker network create -d bridge --subnet 10.0.0.1/24 sqlserver-bridge
